@@ -18,22 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: PsyTechLab
+title: ПсиТехЛаб
 email: psytechlab24@gmail.com
-description: >
-  Our team develops and researches various solutions at the intersection of machine learning and psychology. Our goal is to create tools that help assess people's mental state, as well as facilitate the work of specialists.
-
-  The main focus of our team is:
-
-  - Development of models of complex psycho-emotional functions, such as empathy;
-  - Development of models predicting both the presence of psychological problems and individual features of these problems;
-  - Creation of chatbots for psychological support;
-  - Collecting and creating datasets for relevant tasks.
-
+description: Команда любителей применять машинное обучение к менталке.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  psytechlab
 
 # Build settings
 theme: minima
