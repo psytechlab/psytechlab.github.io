@@ -29,6 +29,12 @@ github_username:  psytechlab
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+  
+# Google Analytics
+google_analytics: G-WZ378XWFKE
 
 # Exclude from processing.
 # The following items will not be processed, by default.
