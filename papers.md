@@ -41,3 +41,21 @@ permalink: /papers
   url          = {https://www.ispras.ru/en/proceedings/isp_37_2025_6-2/isp_37_2025_6-2_191/}
 }
 ```
+
+# Оценка качества перевода датасета для оценки эмпатии: гипотезы и эксперименты
+
+**Abstract:** Работа  посвящена  исследованию  методов  автоматической  оценки качества  перевода  на  русский  язык  англоязычного  набора  данных EPITOME,  который  состоит  из  текстов  пользователей  Reddit, размеченных  по  типам  эмпатии  и  соответствующим  носителям эмпатичных  высказываний.
+
+([paper](./assets/pdfs/translation_quality_est2025.pdf), [code](https://github.com/psytechlab/empathy_dataset_transfer))
+
+
+```bibtex
+@inproceedings{translation_quality_est2025,
+  title        = {Evaluating the Quality of a Empathy Assessment Dataset Translation: Hypotheses and Experiments},
+  author       = {Nafisa Valieva and Igor Buyanov and Anastasiya Goncharova},
+  year         = 2025,
+  booktitle    = {СОВРЕМЕННЫЕ МЕТОДЫ ПРИКЛАДНОЙ МАТЕМАТИКИ, ТЕОРИИ УПРАВЛЕНИЯ И КОМПЬЮТЕРНЫХ ТЕХНОЛОГИЙ},
+  volume       = 12,
+  pages        = {27-29}
+}
+```
