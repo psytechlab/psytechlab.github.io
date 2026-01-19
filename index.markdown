@@ -4,7 +4,7 @@ title: Домой
 permalink: /
 ---
 
-# Привет, мы ПсиТехЛаб.
+# Привет, мы Пситехлаб.
 
 ![logo](/assets/images/logo.jpg)
 
