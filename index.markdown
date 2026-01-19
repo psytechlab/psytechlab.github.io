@@ -19,5 +19,6 @@ permalink: /
 
 # Контакты
 
-- Почта: psytechlab24@gmail.com
-- Новостной tg-канал: https://t.me/psytechlab
+- Почта: [psytechlab24@gmail.com](mailto:psytechlab24@gmail.com)
+- Новостной tg-канал: [https://t.me/psytechlab](https://t.me/psytechlab)
+- Hugging face: [https://huggingface.co/psytechlab](https://huggingface.co/psytechlab)
