@@ -1,17 +1,16 @@
 --- 
 layout: post 
-title: Как мы собирали датасет для разработки ML-инструмента, помогающего спасать жизни
+title: How we collected a dataset for developing an ML tool that helps save lives
 use_math: false
 --- 
 
 ![](/assets/images/presui_antisui_dataset_methodology/poster.png)
 
-_Изначально пост был размещен на [Хабре](https://habr.com/ru/companies/mts_ai/articles/985412/) в блоге MWS AI. На правах авторов, дублируем его в нашем блоге._
+_Originally, the post was published on [Habr](https://habr.com/ru/companies/mts_ai/articles/985412/) in the MTS AI blog. As the authors, we are duplicating it in our blog._
 
-Привет, Хабр! В этом посте речь пойдет о специфическом датасете, предназначенном для решения очень важной задачи — разработки ML-инструмента, помогающего своевременно выявлять предпосылки и предотвращать суициды. Мы с командой «Пситехлаб», специализирующейся на ИИ-решениях для психотерапии, собирали его по вечерам. Этот проект диссертационный, он не входит в мои обязанности в рамках работы в MWS AI, но опыт, приобретенный в компании, стал базой, без которой его бы не было.
+Hello, Habr! This post will discuss a specific dataset designed to solve a very important task — developing an ML tool that helps timely identify preconditions and prevent suicides. My team and I from 'Psytechlab', which specializes in AI solutions for psychotherapy, collected it in the evenings. This is a dissertation project, it is not part of my responsibilities within my work at MTS AI, but the experience gained at the company became the foundation without which it would not have existed.
 
-Мы написали [научную статью](/assets/pdfs/dataset_methodology_presui_antisui.pdf) по созданию этого датасета. Если будете использовать наш датасет, пожалуйста, процитируйте.
-
+We wrote a [scientific article](/assets/pdfs/dataset_methodology_presui_antisui.pdf) on creating this dataset. If you use our dataset, please cite it.
 # Давайте начнем с контекста. Почему этот проект так важен
 По данным ВОЗ, мир ежегодно теряет более 700 тысяч человек вследствие суицида. Представьте, целый город, причем не маленький, исчезает каждый год. По России свежую статистику мне пока не удалось найти, но вот в 2019-м было 17 тысяч случаев самоубийств, в 2022-м — 13,5 тысяч (это данные Росстата). Хорошая новость в том, что количество таких трагедий у нас сокращается год от года: с момента пика, который пришелся на 1994 год и составил рекордные 61,8 тысяч случаев, — падение почти в шесть раз! Но мы очень хотим, чтобы это число падало еще быстрее. И вообще, чтобы оно было нулевым.
 

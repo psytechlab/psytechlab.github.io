@@ -7,7 +7,7 @@ use_math: false
 
 357 days have passed since the post where we congratulated everyone on the upcoming current year. Back then we created Psytechlab. Let's see what we've accomplished during this time.
 
-First and foremost, we created "Whaleboy", our anti-suicide platform that had been in development for four years. We're not ashamed to say that it turned out to be a whole ecosystem, because "Whaleboy" is not just a platform - it's also a dataset, models, and a bunch of satellite programs.
+First and foremost, we created "Kitoboy", our anti-suicide platform that had been in development for four years. We're not ashamed to say that it turned out to be a whole ecosystem, because "Kitoboy" is not just a platform - it's also a dataset, models, and a bunch of satellite programs.
 
 We presented at venues with developers (Python Meetup, ODS Data Fest) and psychologists (CBT FORUM 2025, Open Doors.CONF). Our "agents" (meaning people) are present both in Moscow and St. Petersburg. The presentations are bearing fruit: we've partnered with the "Open Doors" project - a platform for accessible psychological help. Together with them, we're developing a training bot for psychologists. We showed the demo version at the October conference, where we received our first feedback.
 

@@ -6,7 +6,7 @@ title: Translation of an empathy assessment dataset to Russian. Approach, challe
 use_math: false
 --- 
 
-Hi. My name is Nafisa Valieva. I am a junior developer at MWS AI and a 3rd year student of Applied Mathematics and Control Processes at SPbGU. This post is a text version of my presentation at [Data Fest](https://youtu.be/ZkydkhQvO64). I will tell you how we at the Psytechlab team translated an interesting dataset from English to Russian using large language models (LLMs). The approach itself is based on early work [1] by our supervisor. The difference is that here we analyze the behavior of various LLMs in detail.
+Hi. My name is Nafisa Valieva. I am a junior developer at MWS AI and a 3rd year student of Applied Mathematics and Control Processes at SPbSU. This post is a text version of my presentation at [Data Fest](https://youtu.be/ZkydkhQvO64). I will tell you how we at the Psytechlab team translated an interesting dataset from English to Russian using large language models (LLMs). The approach itself is based on early work [1] by our supervisor. The difference is that here we analyze the behavior of various LLMs in detail.
 
 _Originally, the post was [published on Habr](https://habr.com/ru/articles/946264/), but for the completeness of our work overview, we are placing it in our blog as well._
 
@@ -69,9 +69,9 @@ Other features in brief:
 Originally, we expected that for this task we could manage with a small LLM, which in our case was Qwen2.5-7b. The results showed that we couldn't manage and here's why:
 * Translated texts contain a lot of Latin script.
 * In complex cases where text is written carelessly, the model starts word creation,
-  * "How are you?" "I'm F.I.N.E.". **Fucked up**, insecure, neurotic, and emotional. ("How are you?" "I'm F.I.N.E.". Fucked up, insecure, neurotic, and emotional.)
+  * «Как ты? "Я Ф.И.Н.Е.". **Посорванная**, неуверенная, нервная и эмоциональная.» ("“How are you?” “I’m F.I.N.E.”. Fucked up, insecure, neurotic, and emotional.")
 * On long texts may lose meaning.
-  * "I'm 32 years old and I've never had a girlfriend. Very sad that I've been trying to find someone for a long time, even using online dating, but I feel like I'll remain single forever."
+ * «Мне 32 года, и у меня nunca была подружка. Очень грустно, что я давно стараюсь найти кого-то, даже используя Онлайн-датинг, но я чувствую, что останусь single вечно.»
 * The model often uses not quite the right words (not "want to die" but "want to perish"), confuses parts of speech and word declensions.
 
 Besides model selection, we also improved the prompt based on typical translation errors. Additionally, we included known general prompt engineering practices. Notable parts include:
@@ -97,7 +97,7 @@ The total budget for dataset translation was up to 5,000 rubles, including test 
 * Translation of 2,943 bearers, 1,284 seeker posts and 3,084 response posts - 3,000 rubles (YandexGPT Pro - 2,300 rubles, Bothub (GPT-4o, qwen-2.5-72b-instruct) - 700 rubles)
 
 # Model Training
-To understand whether our translated dataset is actually worth anything, we trained the original classification and empathy bearer extraction model. As base encoders, we tested rubert-base-cased and xlm-roberta-base. Quality was also measured using a set of original metrics:
+To understand whether our translated dataset is actually worth anything, we trained the original classification and empathy bearer extraction model. As base encoders, we tested `rubert-base-cased` and `xlm-roberta-base`. Quality was also measured using a set of original metrics:
 * Accuracy — proportion of correct predictions,
 * F1-score — harmonic mean of precision and recall,
 * Token-level F1 (T-F1) — F1 at the token level for extraction tasks,
