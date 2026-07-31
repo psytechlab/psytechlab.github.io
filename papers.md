@@ -59,3 +59,29 @@ permalink: /papers
   pages        = {27-29}
 }
 ```
+
+# psytechlab at CLPsych 2026: Utilising Natural Language Processing methods and Large Language Models for Social Media Text Analysis
+
+**Abstract:** Social media posts are a rich and valuable source of data for analyzing mental health states and users’ well-being using automated analysis tools. In this work, we demonstrate how we used a range of Natural Language Processing (NLP) methods, including Long ShortTerm Memory (LSTM), BERT-based models, and Large Language Models (LLMs), for self-state and well-being analysis and summarization during the CLPsych Shared Task 2026. Our approach achieved one of the top Consistency and Contradiction scores for the summarization task and also middle-level results for the other tasks. By testing and developing such mental health-state estimation systems, we contributed to improving mental health support systems. We make our code available. 
+
+([paper](./assets/pdfs/buyanovPsytechlabCLPsych20262026.pdf), [code](https://github.com/psytechlab/CLPsych2026))
+
+```bibtex
+@inproceedings{buyanovPsytechlabCLPsych20262026,
+  title = {Psytechlab at {{CLPsych}} 2026: {{Utilising Natural Language Processing}} Methods and {{Large Language Models}} for {{Social Media Text Analysis}}},
+  shorttitle = {Psytechlab at {{CLPsych}} 2026},
+  booktitle = {Proceedings of the 10th {{Workshop}} on {{Computational Linguistics}} and {{Clinical Psychology}} ({{CLPsych}} 2026)},
+  author = {Buyanov, Igor and Valieva, Nafisa and Mazurina, Ekaterina},
+  editor = {Zirikly, Aya and Bar, Kfir and MacAvaney, Sean and Ireland, Molly and Ophir, Yaakov and {Atzil-Slonim}, Dana and Varadarajan, Vasudha and Bedrick, Steven and Desmet, Bart},
+  year = 2026,
+  month = jul,
+  pages = {510--520},
+  publisher = {Association for Computational Linguistics},
+  address = {San Diego, California, USA},
+  doi = {10.18653/v1/2026.clpsych-1.41},
+  urldate = {2026-07-03},
+  abstract = {Social media posts are a rich and valuable source of a data to analyze the mental health states and users' well-being using automatic analysis tools. In this work we show, how we used a range of Natural Language Processing (NLP) methods such as Long-Short Term Memory (LSTM), BERT-based models and Large Language Models (LLMs) for self-states and well-being analysis and summarization during the CLPsych Shared Task 2026. Our approach achieved one of the top Consistency and Contradiction scores for summarization task and also middle-level results for the other tasks. By testing and developing such mental health-state estimation systems, we managed to contribute to the improvement of the mental health support systems. We make our code available.},
+  isbn = {979-8-89176-421-7},
+  file = {C:\Users\aarma\Zotero\storage\NPQXDV3F\Buyanov и др. - 2026 - psytechlab at CLPsych 2026 Utilising Natural Language Processing methods and Large Language Models.pdf}
+}
+```
