@@ -22,7 +22,7 @@ title: Пситехлаб
 email: psytechlab24@gmail.com
 description: Команда любителей применять машинное обучение к менталке.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://psytechlab.co" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  psytechlab
 
 # Build settings
