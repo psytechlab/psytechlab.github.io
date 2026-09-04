@@ -31,8 +31,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-scholar
+  #- jekyll-polyglot
 
-  
+scholar:
+  style: apa # Specify your citation style (e.g., apa, ieee, mla)
+  source: _bibliography # The folder where your .bib file will live
+
 # Google Analytics
 google_analytics: G-WZ378XWFKE
 
