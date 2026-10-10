@@ -16,7 +16,12 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-sitemap'
+  gem 'jekyll-scholar'
+  # gem 'jekyll-polyglot', "~> 1.9.0"
 end
+
+gem "forwardable", "~> 1.3.3"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
