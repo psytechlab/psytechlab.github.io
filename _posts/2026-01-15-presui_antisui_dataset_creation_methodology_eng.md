@@ -1,8 +1,10 @@
---- 
+---
 layout: post 
 title: How we collected a dataset for developing an ML tool that helps save lives
 use_math: false
---- 
+lang: en
+translation_id: 2026-01-15-presui_antisui_dataset_creation_methodology
+---
 
 ![](/assets/images/presui_antisui_dataset_methodology/poster.png)
 

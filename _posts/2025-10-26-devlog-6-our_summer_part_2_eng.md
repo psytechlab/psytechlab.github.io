@@ -1,9 +1,10 @@
-
---- 
+---
 layout: post 
 title: Devlog 6. How We Spent Our Summer, Part 2
 use_math: false
---- 
+lang: en
+translation_id: 2025-10-26-devlog-6-our_summer_part_2
+---
 
 We spent a lot of time on the translation pipeline, while the question of how to improve translation quality remained unresolved. We saw various examples — from questionable to completely worthless — when we evaluated LLMs separately. We decided to test a simple hypothesis: if we calculate perplexity for translated text using a small trained language model, then texts with higher perplexity would represent poor translations.
 

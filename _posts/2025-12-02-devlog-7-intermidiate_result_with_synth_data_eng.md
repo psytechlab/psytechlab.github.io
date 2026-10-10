@@ -1,9 +1,10 @@
-
---- 
+---
 layout: post 
 title: Devlog 7. To Generate or Not to Generate? Intermediate Results with Synthetics for Psychology Domain
 use_math: false
---- 
+lang: en
+translation_id: 2025-12-02-devlog-7-intermidiate_result_with_synth_data
+---
 
 Our domain has one big problem — there's little data and/or it's hard to obtain. This is related to therapy ethics or medical confidentiality if the diagnosis is psychiatric. Data generation through LLMs can ease the pain of all ML engineers, but how do we know to what extent? We're trying to answer this question and in this post we'll briefly share intermediate results.
 
