@@ -10,7 +10,38 @@
   text-align: justify;
 }
 
-.blog-languages,
-.post-languages {
-  margin-bottom: $spacing-unit;
+.lang-switcher {
+  display: inline-block;
+  margin-left: 20px;
+  border-left: 1px solid $grey-color-light;
+  padding-left: 15px;
+  white-space: nowrap;
+
+  a, strong {
+    padding: 4px 2px;
+  }
+
+  @include media-query($on-palm) {
+    margin: 8px 10px;
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+// Keep Minima's mobile menu toggle reachable by keyboard and screen readers.
+@include media-query($on-palm) {
+  .site-nav .nav-trigger {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+
+    &:focus-visible + label {
+      outline: 2px solid $brand-color;
+      outline-offset: 2px;
+    }
+  }
 }

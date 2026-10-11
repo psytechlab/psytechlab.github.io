@@ -4,7 +4,7 @@ author: Nafisa Valieva
 title: Translation of an empathy assessment dataset to Russian. Approach, challenges, results
 use_math: false
 lang: en
-translation_id: 2025-09-13-epitome_dataset_translation
+permalink: "/2025/09/13/epitome_dataset_translation.html"
 ---
 
 Hi. My name is Nafisa Valieva. I am a junior developer at MWS AI and a 3rd year student of Applied Mathematics and Control Processes at SPbSU. This post is a text version of my presentation at [Data Fest](https://youtu.be/ZkydkhQvO64). I will tell you how we at the Psytechlab team translated an interesting dataset from English to Russian using large language models (LLMs). The approach itself is based on early work [1] by our supervisor. The difference is that here we analyze the behavior of various LLMs in detail.

@@ -2,7 +2,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
+  {%- seo canonical=false -%}
+  {%- assign content_lang = page.rendered_lang | default: page.lang | default: site.default_lang -%}
+  <link rel="canonical" {% static_href %}href="{{ site.url }}{{ site.baseurl }}{% unless content_lang == site.default_lang %}/{{ content_lang }}{% endunless %}{{ page.url }}"{% endstatic_href %}>
+  {% for lang in page.available_languages %}
+    <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ site.url }}{{ site.baseurl }}{% unless lang == site.default_lang %}/{{ lang }}{% endunless %}{{ page.url }}"{% endstatic_href %}>
+  {% endfor %}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

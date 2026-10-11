@@ -1,0 +1,12 @@
+- url: /
+  ru: Домой
+  en: Home
+- url: /blog/
+  ru: Блог
+  en: Blog
+- url: /papers
+  ru: Статьи
+  en: Papers
+- url: /products
+  ru: Продукты и разработки
+  en: Products

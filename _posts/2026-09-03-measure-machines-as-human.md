@@ -8,7 +8,7 @@ authors:
 - Nafisa Valieva
 - Ekaterina Mazurina
 lang: en
-translation_id: 2026-09-03-measure-machines-as-human
+permalink: "/2026/09/03/measure-machines-as-human.html"
 ---
 
 **Abstract**: In this work, we examine the task of evaluating large language models (LLMs) through the lens of neuropsychology. The recent tendency to view modern large language models as possessing general artificial intelligence makes it worthwhile to look for evaluation strategies in the sciences that assess natural intelligence. Specifically, we adapt a widely used procedure by which neuropsychologists assess children's language skills that reflect grammatical reasoning abilities. We extend it to more complex cases and test it on adults. We show how to automatically evaluate the model's test results. Experiments with several LLM families show that sufficiently large LLMs outperform the human baseline. We analyze the results, revealing differences in the performance patterns of humans and models. We release the dataset, models, and code as open source.

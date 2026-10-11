@@ -3,7 +3,7 @@ layout: post
 title: 2025 Year Results. Our Team's Year
 use_math: false
 lang: en
-translation_id: 2025-12-23-2025_conclusion
+permalink: "/2025/12/23/2025_conclusion.html"
 ---
 
 357 days have passed since the post where we congratulated everyone on the upcoming current year. Back then we created Psytechlab. Let's see what we've accomplished during this time.

@@ -33,7 +33,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-scholar
-  #- jekyll-polyglot
+  - jekyll-polyglot
+
+languages: ["en", "ru"]
+default_lang: "ru"
+lang_vars: ["lang"]
+exclude_from_localization: ["assets", "CNAME", "sitemap.xml", "google775cb3a46f535e40.html", "yandex_5bc35edd4e8ab4f5.html"]
+parallel_localization: false
+sass:
+  sourcemap: never
 
 scholar:
   style: apa # Specify your citation style (e.g., apa, ieee, mla)
