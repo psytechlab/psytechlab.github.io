@@ -1,8 +1,10 @@
---- 
+---
 layout: post 
 title: Как мы собирали датасет для разработки ML-инструмента, помогающего спасать жизни
 use_math: false
---- 
+lang: ru
+permalink: "/2026/01/15/presui_antisui_dataset_creation_methodology.html"
+---
 
 ![](/assets/images/presui_antisui_dataset_methodology/poster.png)
 

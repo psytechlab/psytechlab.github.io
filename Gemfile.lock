@@ -60,6 +60,8 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-polyglot (1.9.0)
+      jekyll (>= 4.0, >= 3.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-scholar (7.2.0)
@@ -121,6 +123,7 @@ GEM
     webrick (1.9.2)
 
 PLATFORMS
+  arm64-darwin-25
   x86_64-linux
 
 DEPENDENCIES
@@ -128,7 +131,9 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.4.1)
   jekyll-feed (~> 0.12)
+  jekyll-polyglot (~> 1.9)
   jekyll-scholar
+  jekyll-seo-tag
   jekyll-sitemap
   minima (~> 2.5)
   tzinfo (>= 1, < 3)

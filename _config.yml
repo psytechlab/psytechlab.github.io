@@ -19,8 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Пситехлаб
+title_en: Psytechlab
+lang: ru
 email: psytechlab24@gmail.com
 description: Команда любителей применять машинное обучение к менталке.
+description_en: A team of enthusiasts applying machine learning to mental health.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://psytechlab.co" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  psytechlab
@@ -32,7 +35,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-scholar
-  #- jekyll-polyglot
+  - jekyll-polyglot
+
+languages: ["ru", "en"]
+default_lang: "ru"
+lang_vars: ["lang"]
+exclude_from_localization: ["assets", "CNAME", "sitemap.xml", "google775cb3a46f535e40.html", "yandex_5bc35edd4e8ab4f5.html"]
+parallel_localization: false
+sass:
+  sourcemap: never
 
 scholar:
   style: apa # Specify your citation style (e.g., apa, ieee, mla)
@@ -40,6 +51,11 @@ scholar:
 
 # Google Analytics
 google_analytics: G-WZ378XWFKE
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - scripts/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

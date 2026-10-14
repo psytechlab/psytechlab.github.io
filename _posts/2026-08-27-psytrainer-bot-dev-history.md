@@ -1,8 +1,10 @@
---- 
+---
 layout: post 
 title: История создания ИИ-клиента для «Открытых Дверей» компанией «ПсиТехЛаба»
 use_math: false
---- 
+lang: ru
+permalink: "/2026/08/27/psytrainer-bot-dev-history.html"
+---
 
 _Оригинальный пост опубликован [здесь](https://socialcabinet.ru/tpost/1009ydut51-istoriya-sozdaniya-ii-klienta-dlya-otkri)_.
 
