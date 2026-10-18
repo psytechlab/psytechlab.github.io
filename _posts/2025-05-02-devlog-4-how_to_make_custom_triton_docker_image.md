@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Девлог 4. Как сделать кастомный докер-образ для Тритона"
+lang: ru
+permalink: "/2025/05/02/devlog-4-how_to_make_custom_triton_docker_image.html"
+---
+
 Безусловно удобно, когда любую модель можно обернуть в тритоновский докер-образ, как мы научились это делать в [tritoned_bert](https://github.com/psytechlab/tritoned_bert). Нам это нужно, чтобы было удобнее две наши модели поставлять вместе с платформой. Но 14-16 гигов объема каждого такого образа вызывают некоторые вопросы, мягко говоря. Слишком жирно по издержкам, чтобы упаковывать одного Берта на 700-800 Мб. Мы начали искать, как можно сократить его объем. Буквально первой ссылкой в Гугле нашли [гайд](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/customization_guide/build.html) на оф. сайте.
 
 > The easiest way to build Triton is to use Docker.

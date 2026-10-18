@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Девлог 2. Про наш шаблон Triton-сервиса для бертовых моделей"
+lang: ru
+permalink: "/2025/03/19/devlog-2-out_tritron_service_template_for_bert_models.html"
+---
+
 Любой МЛщик когда-то задается вопросом: «А как мне деплоить свои модели?». Мы давно нашли на него ответ: это Triton Inference Server, разработка Nvidia.
 У него полно разных достоинств:
 
